@@ -71,7 +71,18 @@ class student
     char stbno[6];
     int token;
 public:
-    
+    void create_student()
+    {
+        clrscr();
+         cout<<"\nNEW STUDENT ENTRY...\n";
+        cout<<"\nEnter The admission no. ";
+        cin>>admno;
+        cout<<"\n\nEnter The Name of The Student ";
+        gets(name);
+        token=0;
+        stbno[0]='/0';
+        cout<<"\n\nStudent Record Created..";
+    }
 
     void show_student()
     {
