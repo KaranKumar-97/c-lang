@@ -612,7 +612,7 @@ void main()
           cout<<"\n\n\t04. EXIT";
           cout<<"\n\n\tPlease Select Your Option (1-4) ";
           ch=getche();
-          switch(c)
+          switch(ch)
           {
             case '1':clrscr();
                  book_issue();
